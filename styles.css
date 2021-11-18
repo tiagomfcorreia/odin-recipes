@@ -1,11 +1,36 @@
-html {
+/* html {
     box-sizing: border-box;
-}
-h1 {
-    background-color: blue;
+} */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 500px;
+    margin: 0 auto;
+    display: block;
 }
 
-p {
-    background-color: blueviolet;
+img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
 
+li {
+    padding: 1px 1px 1px 1px;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #CCCCCC;
+    /* copied */
+    color: #444444;
+    text-shadow: -1px 0px 1px #001, 2px -1px -1px #CCC;;
+}
+
+p, ul, ol {
+    background-color: rgb(249, 246, 246);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    /* flex: 1; */
 }
