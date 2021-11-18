@@ -4,9 +4,18 @@
 
 body {
     font-family: 'Roboto', sans-serif;
+    /* width: 500px;
+    margin: 0 auto; */
+}
+
+.flex-container {
+    display: flex;
     width: 500px;
     margin: 0 auto;
-    display: block;
+}
+
+.flex-container div {
+    flex: 1;
 }
 
 img {
@@ -32,5 +41,5 @@ p, ul, ol {
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
-    /* flex: 1; */
+
 }
